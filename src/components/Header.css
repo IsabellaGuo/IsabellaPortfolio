@@ -1,0 +1,29 @@
+.header__main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.header__nav{
+    display: flex;
+}
+
+.header__link{
+    margin: 30px;
+    color: #505050;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.header__logo{
+    color: black;
+    font-size: 22px;
+}

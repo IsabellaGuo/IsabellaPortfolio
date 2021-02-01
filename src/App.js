@@ -7,6 +7,7 @@ import "./components/Header.css";
 import About from "./components/About.js";
 import Contact from "./components/Contact.js";
 import Projects from "./components/Projects.js";
+import Home from "./components/Home.js";
 import Footer from "./components/Footer.js";
 
 function App() {
@@ -24,10 +25,16 @@ function App() {
             <Contact />
             <Footer />
           </Route>
+          <Route path="/projects">
+            <Header />
+            <Projects />
+            <Footer />
+          </Route>
+          
 
           <Route path="/">
             <Header />
-            <App />
+            <Home />
             <Footer />
           </Route>
         </Switch>

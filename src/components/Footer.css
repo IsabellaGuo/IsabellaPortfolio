@@ -1,0 +1,21 @@
+.footer__main{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__social i{
+    color: #000000;
+}
+
+.footer__social > a:hover{
+    background-color: #000000;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    transition: all ease 0.5s;
+}
+.footer__social > a:hover i{
+    color:#FFFFFF;
+    transition: all ease 0.5s;
+}

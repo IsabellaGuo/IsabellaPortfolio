@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
+import "./Footer.css";
 
 function Footer() {
     return (
-        <div>
-            <h1>footer</h1>
+        <div className="footer__main">
+            <div className="footer__social">
+                <a href="#"><i className="fab fa-facebook-f"></i></a>
+                <a href="#"><i className="fab fa-twitter"></i></a>
+                <a href="#"><i className="fab fa-instagram"></i></a>
+                <a href="#"><i className="fab fa-github"></i></a>
+            </div>
+            <p>All rights reserve by Isabella Guo</p>
         </div>
     )
 }

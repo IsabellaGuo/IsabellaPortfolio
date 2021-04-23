@@ -22,6 +22,7 @@ function Home() {
           <div className="home__button">
             <button className="button__hire">Hire Me</button>
             <button className="button__cv">Download CV</button>
+            <a href="./assets/cv.pdf" target="_blank">CV</a>
           </div>
         </div>
 

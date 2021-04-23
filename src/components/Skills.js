@@ -40,7 +40,7 @@ function Skills() {
                     senectus commodo litora dolor taciti augue.
                     </p>
                     <button className="projects__link">
-                        Project
+                        Coming Soon!
                     </button>
 
                 </div>
@@ -53,7 +53,7 @@ function Skills() {
                     senectus commodo litora dolor taciti augue.
                     </p>
                     <button className="projects__link">
-                        Project
+                        Coming Soon!
                     </button>
 
                 </div>

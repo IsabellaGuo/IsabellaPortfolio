@@ -20,14 +20,14 @@ function App() {
             <About />
             <Footer />
           </Route>
-          <Route path="/contact">
-            <Header />
-            <Contact />
-            <Footer />
-          </Route>
           <Route path="/projects">
             <Header />
             <Projects />
+            <Footer />
+          </Route>
+          <Route path="/contact">
+            <Header />
+            <Contact />
             <Footer />
           </Route>
           

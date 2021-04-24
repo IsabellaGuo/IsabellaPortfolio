@@ -1,9 +1,10 @@
 import React from "react";
+
 import About from "./About.js";
 import "./About.css"
 import "./Home.css";
-import Skills from "./Skills.js";
-import "./Skills.css";
+import Projects from "./Projects.js";
+import "./Projects.css";
 import Contact from "./Contact.js";
 import "./Contact.css";
 import Footer from "./Footer.js";
@@ -21,15 +22,15 @@ function Home() {
           </div>
           <div className="home__button">
             <button className="button__hire">Hire Me</button>
-            <button className="button__cv">Download CV</button>
-            <a href="./assets/cv.pdf" target="_blank">CV</a>
+            <a className="a__cv" href="./assets/cv.pdf" target="_blank">Download CV</a>
+            
           </div>
         </div>
 
         <img src={"./assets/me.jpg"} alt="myPic" />
       </div>
       <About />
-      <Skills />
+      <Projects />
       <Contact />
       <Footer />
     </div>

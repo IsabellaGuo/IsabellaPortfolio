@@ -17,8 +17,7 @@ function About() {
             eu class ipsum proin platea felis torquent quam. Interdum neque
             aenean lacinia pulvinar ligula.
           </p>
-          <button>Hire Me</button>
-          <button>Download CV</button>
+          
         </div>
       </div>
     )

@@ -13,11 +13,11 @@ function Header() {
                 <Link to="/about" className="header__link">
                     <span>About</span>
                 </Link>
-                <Link to="/contact" className="header__link">
-                    <span>Contact Me</span>
-                </Link>
                 <Link to="/projects" className="header__link">
                     <span>Projects</span>
+                </Link>
+                <Link to="/contact" className="header__link">
+                    <span>Contact Me</span>
                 </Link>
                 
             </div>

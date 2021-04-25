@@ -99,7 +99,7 @@ function Contact() {
   }, [formState]);
   return (
     <div className="contact__main">
-      <p>If you have a project in mind</p>
+      <p className="contact__phrase">If you have a project in mind</p>
       <form className="form" onSubmit={onFormSubmit}>
         {serverError && <p className="error">{serverError}</p>}
         <label className="label__text" htmlFor="name">

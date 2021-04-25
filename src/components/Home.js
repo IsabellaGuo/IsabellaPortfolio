@@ -9,8 +9,15 @@ import Contact from "./Contact.js";
 import "./Contact.css";
 import Footer from "./Footer.js";
 import "./Footer.css";
+import { Link, useHistory } from "react-router-dom";
 
 function Home() {
+
+  const history = useHistory();
+
+  const routeToContact = () => {
+    history.push("/contact")
+  }
   return (
     <div className="home__main">
       <div className="home__banner">
@@ -21,7 +28,7 @@ function Home() {
             <p>I am a Full-Stack Developer</p>
           </div>
           <div className="home__button">
-            <button className="button__hire">Hire Me</button>
+            <button className="button__hire" onClick={routeToContact}>Hire Me</button>
             <a className="a__cv" href="./assets/cv.pdf" target="_blank">Download CV</a>
             
           </div>

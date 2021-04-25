@@ -87,7 +87,7 @@ function Contact() {
   const formSchema = yup.object().shape({
     name: yup.string().required("Name is required."),
 
-    email: yup.string().email(),
+    email: yup.string().email().required("Please let me know how to contact you back."),
 
     message: yup.string().required("Please let me know what I can do for you.")
   });

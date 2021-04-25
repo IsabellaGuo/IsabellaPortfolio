@@ -10,7 +10,7 @@ function Footer() {
                 <a href="#"><i className="fab fa-instagram"></i></a>
                 <a href="#"><i className="fab fa-github"></i></a>
             </div>
-            <p>All rights reserve by Isabella Guo</p>
+            <p className="rights">All rights reserve by Isabella Guo</p>
         </div>
     )
 }

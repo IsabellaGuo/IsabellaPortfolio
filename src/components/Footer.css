@@ -6,6 +6,25 @@
     align-items: center;
 }
 
+.footer__social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__social a{
+    width:40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+
 .footer__social i{
     color: #000000;
 }

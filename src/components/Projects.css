@@ -78,14 +78,20 @@ a{
 }
 
 @media only screen and (max-width: 750px){
-    *{
-        box-sizing: border-box;
-    }
+    
     .projects__cards{
         display: flex;
     flex-direction: column;
-    width: 100%;
-    margin-left: 150px;;
     
+    
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .projects__cards{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
     }
 }

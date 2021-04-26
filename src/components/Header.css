@@ -17,7 +17,7 @@ a {
 }
 
 .header__link{
-    margin: 30px;
+    
     color: #505050;
     font-size: 15px;
     font-weight: 700;
@@ -27,4 +27,18 @@ a {
     color: black;
     font-size: 22px;
     margin: 0 0 0 80px;
+}
+
+@media only screen and (max-width: 550px){
+    
+    
+     .header__nav{
+        width: 100%;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+     }
+     .header__logo {
+         display: none;
+     }
 }

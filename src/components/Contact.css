@@ -78,3 +78,14 @@ textarea {
   letter-spacing: 0.5px;
   background-color: white;
 }
+@media only screen and (max-width: 750px){
+  .contact__button{
+    margin: 20px;
+  }
+  .contact__main > p{
+    font-size: 20px;
+  }
+  .form{
+    width: 80%;
+  }
+}

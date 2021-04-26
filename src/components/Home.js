@@ -34,7 +34,7 @@ function Home() {
           </div>
         </div>
 
-        <img src={"./assets/me.jpg"} alt="myPic" />
+        <img className="home__pic" src={"./assets/me.jpg"} alt="myPic" />
       </div>
       <About />
       <Projects />

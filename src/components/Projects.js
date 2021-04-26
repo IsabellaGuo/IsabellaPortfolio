@@ -6,7 +6,7 @@ function Projects() {
         <div classsName="projects__main">
             <div className="skills__texts">
                     <p className="skills__title">
-                        SKILL TITLE
+                        SKILL & PROJECTS
                     </p>
                     {/*
                     <p className="projects__subtitle">
@@ -14,9 +14,7 @@ function Projects() {
                     </p>
                     */}
                     <p className="skills__text">
-                    Lorem ipsum odor amet, consectetuer adipiscing elit. Eget parturient
-                    senectus commodo litora dolor taciti augue. Molestie molestie neque
-                    viverra lacinia praesent risus quis auctor.
+                    I have a diverse set of skills, ranging from front-end to back-end. My favorite languages are Javascript and Python. 
                     </p>
             </div>
             <div className="projects__cards">
@@ -28,9 +26,7 @@ function Projects() {
                     Lorem ipsum odor amet, consectetuer adipiscing elit. Eget parturient
                     senectus commodo litora dolor taciti augue.
                     </p>
-                    <button className="projects__link">
-                       Project
-                    </button>
+                    <a className="projects__link" href="https://skl-properties.herokuapp.com/" target="_blank">Project</a>
 
                 </div>
                 <div className="projects__card">
@@ -41,9 +37,7 @@ function Projects() {
                     Lorem ipsum odor amet, consectetuer adipiscing elit. Eget parturient
                     senectus commodo litora dolor taciti augue.
                     </p>
-                    <button className="projects__link">
-                        Coming Soon!
-                    </button>
+                    <a className="projects__link" href="" target="_blank">Coming Soon!</a>
 
                 </div>
                 <div className="projects__card">
@@ -54,9 +48,7 @@ function Projects() {
                     Lorem ipsum odor amet, consectetuer adipiscing elit. Eget parturient
                     senectus commodo litora dolor taciti augue.
                     </p>
-                    <button className="projects__link">
-                        Coming Soon!
-                    </button>
+                    <a className="projects__link" href="" target="_blank">Coming Soon!</a>
 
                 </div>
 

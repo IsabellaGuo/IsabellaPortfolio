@@ -8,14 +8,10 @@ function About() {
           <p className="about__title">ABOUT ME</p>
           <p className="about__subtitle">Full Stack Developer</p>
           <p className="about__text">
-            Lorem ipsum odor amet, consectetuer adipiscing elit. Eget parturient
-            senectus commodo litora dolor taciti augue. Molestie molestie neque
-            viverra lacinia praesent risus quis auctor.
+            I am a full-stack web developer, with business administration and marketing background. I am fueled by my passion for understanding what the client wants and turn it in to clean code. 
           </p>
           <p className="about__text">
-            Malesuada cursus lobortis nascetur; rutrum senectus dis tempus. Cras
-            eu class ipsum proin platea felis torquent quam. Interdum neque
-            aenean lacinia pulvinar ligula.
+            I consider myself a 'forever student', always eager to learn, keep improving and stay in tune with the latest framework. Besides coding, I love playing piano, trying different restaurants, being curious about the world.
           </p>
           
         </div>

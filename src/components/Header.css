@@ -26,4 +26,5 @@ a {
 .header__logo{
     color: black;
     font-size: 22px;
+    margin: 0 0 0 80px;
 }

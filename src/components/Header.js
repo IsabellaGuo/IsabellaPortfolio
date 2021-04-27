@@ -17,7 +17,7 @@ function Header() {
                     <span>Projects</span>
                 </Link>
                 <Link to="/contact" className="header__link">
-                    <span>Contact Me</span>
+                    <span>Contact</span>
                 </Link>
                 
             </div>

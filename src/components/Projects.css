@@ -12,10 +12,29 @@
     margin: 50px 50px;
 }
 
-.skills__text{
-    font-family: calibri;
-    color: #7e7d7d;
-    margin: 50px 50px;
+.skills__icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    
+}
+
+.skills__icons a{
+    width:40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+
+.skills__icons i{
+    color: #000000;
 }
 
 .projects__texts{

@@ -50,7 +50,7 @@
     margin: 5px;
 }
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 550px){
     *{
         box-sizing: border-box;
     }

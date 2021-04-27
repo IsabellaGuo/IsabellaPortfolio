@@ -106,7 +106,7 @@ a{
     }
 }
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 550px){
     .projects__cards{
 display: flex;
 flex-direction: column;

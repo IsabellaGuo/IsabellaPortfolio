@@ -94,4 +94,8 @@ flex-direction: column;
 justify-content: center;
 
     }
+    .projects__link{
+        width: 130px;
+    height: 30px;
+    }
 }

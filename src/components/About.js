@@ -7,6 +7,7 @@ function About() {
         <div className="about__texts">
           <p className="about__title">ABOUT ME</p>
           <p className="about__subtitle">Full Stack Developer</p>
+          <p className="about__subtitle">isabella.guofei@gmail.com</p>
           <p className="about__text">
             I am a full-stack web developer, with a business administration and marketing background. I am fueled by my passion for understanding what the client wants and turn it in to clean code. 
           </p>

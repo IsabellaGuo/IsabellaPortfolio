@@ -33,7 +33,7 @@ function Projects() {
         <div className="projects__card">
           <p className="projects__title">SKL Properties</p>
           <p className="projects__des">
-          A full-stack,responsive,single-page application for the client to manage his properties and engage with potential tenants.
+          A responsive, full-stack and single-page application built for a client to help him with his property management.
           </p>
           <a
             className="projects__link"
@@ -46,7 +46,7 @@ function Projects() {
         <div className="projects__card">
           <p className="projects__title">Sang & Isabella</p>
           <p className="projects__des">
-            Sang & Isabella's wedding website will be released on their first wedding anniversary.  
+            The pandemic stopped many things, but not love. Sang & Isabella's wedding website will be released on their first wedding anniversary!
           </p>
           <a className="projects__link" href="" target="_blank">
             Coming Soon!
@@ -55,7 +55,7 @@ function Projects() {
         <div className="projects__card">
           <p className="projects__title">Ming's Moving</p>
           <p className="projects__des">
-            A website will be designed to help the client to manage his moving business.
+            This website will be designed for a local moving business. It will allow customers able to see Ming's availabilities and book his service online. 
           </p>
           <a className="projects__link" href="" target="_blank">
             Coming Soon!

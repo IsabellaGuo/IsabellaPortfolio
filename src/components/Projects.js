@@ -55,7 +55,7 @@ function Projects() {
         <div className="projects__card">
           <p className="projects__title">Ming's Moving</p>
           <p className="projects__des">
-            This website will be designed for a local moving business. It will allow customers able to see Ming's availabilities and book his service online. 
+            This website will be designed for a local moving business. It will allow customers be able to see Ming's availabilities and book his service online. 
           </p>
           <a className="projects__link" href="" target="_blank">
             Coming Soon!
